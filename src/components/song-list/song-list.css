@@ -1,0 +1,46 @@
+.song-table {
+    margin-top: 30px;
+}
+
+.title-row {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+
+    height: 50px;
+    padding-top: 3px;
+
+    background-color: #eeeeee;
+}
+
+.title-row td {
+    border-right: 2px solid white;
+
+    color: gray;
+    font-weight: 500;
+}
+
+@media (max-width: 480px) {
+    .title-row {
+        width: 400px;
+        display: flex;
+        justify-content: space-between;
+    
+        height: 50px;
+        padding-top: 3px;
+    
+        background-color: #eeeeee;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .title-row {
+        width: 481px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .title-row {
+        width: 768px;
+    }
+}

@@ -1,0 +1,19 @@
+.upload-form-container {
+    margin-top: 20px;
+}
+
+input[type="file"] {
+    display: none;
+}
+.custom-file-upload, .upload-btn {
+    width: fit-content;
+    height: 35px;
+
+    border: 1px solid grey;
+    border-radius: 3px;
+
+    background-color: #eeeeee;
+
+    padding: 5px 10px;
+    font-weight: 500;
+}

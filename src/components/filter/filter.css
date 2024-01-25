@@ -1,0 +1,14 @@
+.filter-wrap {
+    position: relative;
+}
+
+.search-input {
+    height: 35px;
+    width: 250px;
+
+    border-color: grey;
+    border-radius: 30px;
+
+    padding-left: 35px;
+    font-size: large;
+}

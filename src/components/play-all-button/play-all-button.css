@@ -1,0 +1,48 @@
+.play-all-button {
+    width: 140px;
+    height: 35px;
+
+    border: 1px solid grey;
+    border-radius: 3px;
+
+    background-color: #eeeeee;
+
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.play-all-button:hover {
+    transform: scale(1.05);
+    transition: 0.5ms;
+}
+
+.play-all-span {
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+
+    font-weight: 500;
+}
+
+.dropdown-span {
+    display: inline-flex;
+    align-items: center;
+    height: 35px;
+    padding-left: 10px;
+
+    border-left: 1px solid grey;
+}
+
+@media (max-width: 480px) {
+    .play-all-button {
+        margin-bottom: 5px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .play-all-button {
+        margin-bottom: 5px;
+    }
+}

@@ -1,0 +1,64 @@
+.song-row {
+    width: 1000px;
+
+    border-bottom: 1px solid grey;
+}
+
+.song-row:hover {
+    background-color: #f6f2f2;
+}
+
+.song-row td{
+    color:grey;
+}
+
+.icons {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+
+    color:grey;
+}
+
+.icon-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: grey;
+}
+
+.pause-btn, .play-btn {
+    border: none;
+    background-color: transparent;
+    color:grey;
+}
+
+@media (max-width: 480px) {
+    .song-row {
+        max-width: 400px;
+    
+        border-bottom: 1px solid grey;
+    }
+
+    .icon-container{
+        gap: 2px;
+    }
+
+    .icons {
+        gap: 2px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .song-row {
+        width: 481px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .song-row {
+        width: 768px;
+    }
+}

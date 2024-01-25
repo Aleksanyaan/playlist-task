@@ -1,0 +1,19 @@
+.manage-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    padding: 8px;
+
+    border: 1px solid grey;
+    border-radius: 4px;
+
+    background-color: #e1e1e1;
+}
+
+.right-part, .left-part {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}

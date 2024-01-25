@@ -1,0 +1,22 @@
+.track-number-button {
+    width: 140px;
+    height: 35px;
+
+    border: 1px solid grey;
+    border-radius: 3px;
+
+    background-color: #eeeeee;
+
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.track-number-span {
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+
+    font-weight: 500;
+}
