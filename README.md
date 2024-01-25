@@ -33,10 +33,10 @@ Also there is 'helpers' folder in 'src' folder where are exported redux action t
 For running application locally you shuold.
 1. Clone the repasitory from GitHub:
     Open your terminal and run the following command to clone the repository:
-    git clone 
+    git clone https://github.com/Aleksanyaan/playlist-task.git
 2. Navigate to the Project Directory:
     Change into the project directory using the following command:
-    cd
+    cd playlist
 3. Install Dependencies:
     Run the following command to install the project dependencies:
     npm install
